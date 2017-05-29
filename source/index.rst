@@ -6,27 +6,33 @@
 Welcome to Women's Print History Project's documentation!
 =========================================================
 
+User Manual
+-----------
+
 .. toctree::
    :maxdepth: 1
-   :caption: User Manual:
    
    intro
    getting_started
 
+Administrator Manual
+--------------------
 
 .. toctree::
    :maxdepth: 1
-   :caption: Admin Manual:
-      
+
    intro
    getting_started
 
+Develper Manual
+---------------
+
 .. toctree::
    :maxdepth: 1
-   :caption: Developer Manual:
-      
-   intro
-   getting_started
+
+   install
+   update
+   config
    todo
 
 
