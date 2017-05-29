@@ -7,17 +7,28 @@ Welcome to Women's Print History Project's documentation!
 =========================================================
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+   :maxdepth: 1
+   :caption: User Manual:
    
    intro
    getting_started
 
 
+.. toctree::
+   :maxdepth: 1
+   :caption: Admin Manual:
+      
+   intro
+   getting_started
 
-Indices and tables
-==================
+.. toctree::
+   :maxdepth: 1
+   :caption: Developer Manual:
+      
+   intro
+   getting_started
+   todo
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+
+
+
