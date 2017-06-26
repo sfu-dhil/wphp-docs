@@ -10,26 +10,28 @@ User Manual
 -----------
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    
    intro
    getting_started
+   titles
+   persons
+   firms
 
 Administrator Manual
 --------------------
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
+   
+   admin
 
-   intro
-   getting_started
-
-Develper Manual
----------------
+Developer Manual
+----------------
 
 .. toctree::
-   :maxdepth: 1
-
+   :maxdepth: 2
+   
    install
    update
    config
