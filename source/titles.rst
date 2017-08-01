@@ -60,26 +60,17 @@ Location of printing
 Genre
   Category that the work falls into.
 
-.. todo:: add link to full genres if explained in documentation. suggestion from original descriptions
+.. todo:: Add descriptions for individual genres in future documentation. 
 
 .. _title-field-source-1:
 
 Source 1
-  First source consulted to populate the entry fields. Source ID will vary according to the source, but will correspond to the 
-
-.. incomplete description
+  First source consulted to populate the entry fields. Source ID will vary according to the source, but will correspond to the to a unique identifier for the book or document consulted.
 
 .. _title-field-source-2:
 
 Source 2
-  Second source consulted to populate the entry fields. Source ID will vary according to the source, but will correspond to the 
-  
-.. todo:: incomplete description
-
-Surrogate
-  Definition here.
-  
-.. todo:: get surrogate definition
+  Second source consulted to populate the entry fields. Source ID will vary according to the source, but will correspond to the to a unique identifier for the book or document consulted.
 
 .. _title-field-pseudonym:
 
@@ -176,7 +167,7 @@ Notes
 Title Search
 ------------
 
-The Title Search page defaults to a basic title search funciton with a custom search page available via the **options** button. It allows users to search for specific titles on fields associated with a title. Advanced title searches can also be filtered by 0 or more Person or Firm content-type searches.
+The Title Search page defaults to a basic title search function with a custom search page available via the **options** button. It allows users to search for specific titles on fields associated with a title. Advanced title searches can also be filtered by 0 or more Person or Firm content-type searches.
 
 Title Search parameters
 ^^^^^^^^^^^^^^^^^^^^^^^

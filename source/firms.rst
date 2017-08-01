@@ -10,8 +10,6 @@ Firm List
 
 The firm list contains all the firm entries organized by ID. For each entry, the firm list shows the :ref:`ID <firm-field-id>`, :ref:`Name <firm-field-name>`, :ref:`Street address <firm-field-street-address>`, :ref:`Start date <firm-field-start-date>`, :ref:`End date <firm-field-end-date>`, and Final check.
 
-.. todo:: Check which final check is being mentioned in firm list
-
 Firm entry fields
 ^^^^^^^^^^^^^^^^^
 
@@ -38,9 +36,7 @@ City
 .. _firm-field-titles:
 
 Titles
-  List of all titles associated with this firm, including the firm role, :ref:`title <title-field-title>`, author, and :ref:`date published <title-field-publication-date>`.
-
-.. need firm role info to link to an author
+  List of all titles associated with this firm, including the :ref:`firm role <firm-roles>`, :ref:`title <title-field-title>`, :ref:`author <person-roles-author>`, and :ref:`date published <title-field-publication-date>`.
 
 .. _firm-field-start-date:
 
@@ -53,6 +49,33 @@ End date
   If known, YYYY-MM-DD
 
 .. _firm-search-label:
+
+.. _firm-roles:
+
+Firm Roles
+----------
+
+Each firm is assigned one or more of the following roles.
+
+.. _firm-roles-printer:
+
+Printer
+  The firm responsible for compositing and printing the work. Usually indicated by the phrase "printed by" in the imprint and/or the colophon.
+
+.. _firm-roles-publisher:
+
+Publisher
+  The firm that takes on the financial responsibility for the editing, printing, and distribution of the work. Usually indicated by the phrase "printed for" in the imprint. In the event that a work has been self-published, this will be indicated in the :ref:`Self-Published field <title-field-self-published>`.
+
+.. _firm-roles-bookseller:
+
+Bookseller
+  The firm from which the work can be purchased. Indicated by the phrase "sold by" in the imprint.
+  
+.. _firm-roles-unknown:
+
+Unknown
+  No firm role indicated in the imprint.
 
 Firm Search
 -----------

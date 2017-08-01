@@ -75,6 +75,15 @@ Completed
 Published
   The comment has been reviewed and appropriate action has been taken. The comment will be published in public.
 
+.. _admin-feedback:
+
+Feedback
+--------
+
+Users can supply feedback for the WPHP website as a whole via the form accessible from the **Feedback** link in the top menu. Users must supply their full name, email address, and the content of their feedback. No user account is needed to submit comments.
+
+Users with :ref:`ROLE-ADMIN <admin-users-roles-admin>` priviliges may view any feedback via the same **Feedback** button while logged in. The Feedback List shows all feedback, including the date the feedback was provided, the commenter's name, email, and the full content of their feedback. 
+
 .. _admin-blog-posts:
 
 Blog Posts
@@ -148,7 +157,7 @@ User types/roles
 .. _admin-users-roles-admin:
 
 ROLE_ADMIN
-  ROLE_ADMIN users have access to the entire admin control panel. They can update and moderate :ref:`comments <admin-comments>`, add and update :ref:`blog posts <admin-blog-posts>`, and add and update :ref:`users <admin-users>`.
+  ROLE_ADMIN users have access to the entire admin control panel. They can update and moderate :ref:`comments <admin-comments>`, view :ref:`feedback <admin-feedback>`, add and update :ref:`blog posts <admin-blog-posts>`, and add and update :ref:`users <admin-users>`.
   
 .. _admin-useres-roles-blog:
 

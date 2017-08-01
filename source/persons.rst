@@ -56,25 +56,73 @@ Place of death
 .. _person-field-titles:
 
 Titles
-  List of all works person is associated with including the role, :ref:`title <title-field-title>`, and :ref:`date <title-field-publication-date>`.
-  
-.. todo:: link to roles
-
-.. _person-field-hand-checked:
-
-Hand checked
-  Definition here.
-
-.. todo:: need hand check definition for person
+  List of all works person is associated with including the :ref:`role <person-roles>`, :ref:`title <title-field-title>`, and :ref:`date <title-field-publication-date>`.
 
 .. _person-field-final-check:
 
 Final check
-  Definition here.
-  
-.. todo:: need final check definition for person
+  Indicates that biographical information has been gathered for the person entry
 
 .. _person-search-label:
+
+.. _person-roles:
+
+Person Roles
+------------
+
+Each person entry is assigned one or more of the following roles.
+
+.. _person-roles-author:
+
+Author
+  The person responsible for the composition of the work.
+
+.. _person-roles-publisher:
+
+Publisher
+  Indicates the person running the firm for whom the work was printed. This role is included if the firm is female-run.
+
+.. _person-roles-bookseller:
+
+Bookseller
+  Indicates the person running the firm that sold the work. This role is included if the firm is female-run.
+  
+.. _person-roles-printer:
+
+Printer
+  Indicates the person running the firm that printed the work. This role is included if the firm is female-run.
+
+.. _person-roles-editor:
+
+Editor
+  The person who selected, revised, and arranged the work for print.
+
+.. _person-roles-translator:
+
+Translator
+  The person who is responsible for translating the text from one language to another.
+  
+.. _person-roles-engraver:
+
+Engraver
+  The person responsible for turning an illustration into an engraving.
+
+.. _person-roles-introduction:
+
+Introduction
+  The person who composed the introduction or any prefatory material for the work. Must be a different person than the author.
+  
+.. _person-roles-illustrator:
+
+Illustrator
+  The person who created the image from which any engravings were created. Usually different than the Engraver.
+
+.. _person-roles-compiler:
+
+Compiler
+  The person who selected the works contained within a text. Usually applies to anthologies and collections.
+  
+.. _person-roles-composer:
 
 Person Search
 -------------
