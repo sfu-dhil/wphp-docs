@@ -95,7 +95,7 @@ Suggestions and Comments
 
 
 Explore Contributor Roles
-^^^^^^^^^^^^^^^^^^^^^^^^^
+--------------------------
 
 Each person entry is assigned one or more of the following roles.
 
@@ -158,7 +158,7 @@ Translator
 
 
 Person Search
-^^^^^^^^^^^^^
+--------------
 
 
 The Search Persons page defaults to a basic person search by name with a custom search page available via the Advanced Search button. Select a method to sort results with the Results Sorted By dropdown menu. The Advanced Search allows users to search for specific persons by fields associated with a person. Search results return all person entries that include the search term. Selecting a person will return all titles associated with that person. 

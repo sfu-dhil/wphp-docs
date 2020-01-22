@@ -277,7 +277,7 @@ Genre
 .. _title-field-sources:
 
 Sources
-List of sources consulted to populate the entry fields. Sources include the source name and ID. The source ID will vary according to the source, but will correspond to a unique identifier for the source consulted. For descriptions of sources, see Explore Sources. Selecting the source name will open a page with information about that source and a list of titles that use that source. If the source ID is hyperlinked, selecting it will take you to the original source record.
+  List of sources consulted to populate the entry fields. Sources include the source name and ID. The source ID will vary according to the source, but will correspond to a unique identifier for the source consulted. For descriptions of sources, see Explore Sources. Selecting the source name will open a page with information about that source and a list of titles that use that source. If the source ID is hyperlinked, selecting it will take you to the original source record.
 
 
 .. _title-field-shelfmarks:
