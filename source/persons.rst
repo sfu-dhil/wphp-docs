@@ -231,4 +231,4 @@ Filter by Title
 Filter by Firm
   Person search can be filtered by all or part of a `firm name <firms.html#firm-field-title>`_, by `firm gender <firms.html#firm-field-gender>`_, by `firm role <firms.html#firm-field-roles>`_, or by `firm address <firms.html#firm-field-street-address>`_. 
 
-Search results appear below the search fields. The search can be reset using the reset button. Search results include the person’s ID [link], last name, first name, gender, date of birth, and date of death.
+Search results appear below the search fields. The search can be reset using the reset button. Search results include the :ref:`person’s ID <person-field-id>`, :ref:`last name <person-field-last-name>`, :ref:`first name <person-field-first-name>`, :ref:`gender <person-field-gender>`, :ref:`date of birth <person-field-date-of-birth>`, and :ref:`date of death <person-field-date-of-death>`.
