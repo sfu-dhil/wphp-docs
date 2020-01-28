@@ -6,7 +6,7 @@ Firms
 Explore Firms
 -------------
 
-Explore Firms contains all the firm entries organized by ID. For each entry, the firm list shows the ID, Name, Street address, City (Country), Start date, End date.
+Explore Firms contains all the firm entries organized by ID. For each entry, the firm list shows the :ref:`ID <firm-field-id>`, :ref:`Name <firm-field-name>`, :ref:`Street address <firm-field-street-address>`, :ref:`City (Country) <firm-field-city>`, :ref:`Start date <firm-field-start-date>`, :ref:`End date <firm-field-end-date>`.
 
 Firm entry fields
 ^^^^^^^^^^^^^^^^^
@@ -100,7 +100,7 @@ Firm Search parameters
 .. _firm-search-name:
 
 Name
-  Text search for all or part of a firm name.
+  Text search for all or part of a :ref:`firm name <firm-field-name>`.
 
 .. _firm-search-results-sorted-by:
 
@@ -110,31 +110,31 @@ Results Sorted By
 .. _firm-search-id:
 
 Firm ID
-	Search for a firm by the exact firm ID.
+	Search for a firm by the exact :ref:`firm ID <firm-field-id>`.
 
 .. _firm-search-gender:
 
 Gender 
-	Firm search can be filtered by firm gender (female, male, or unknown). Leave blank to include all genders.
+	Firm search can be filtered by :ref:`firm gender <firm-field-gender>` (female, male, or unknown). Leave blank to include all genders.
 
 .. _firm-search-address:
 
 Address
-  Text search for a firm address.
+  Text search for a :ref:`firm address <firm-field-street-address>`.
 
 .. _firm-search-city:
 
 City
-  Text search for a firm city
+  Text search for a :ref:`firm city <firm-field-city>`.
 
 .. _firm-search-start-date:
 
 Start Date
-  Enter a year (eg 1795) or range of years (1790-1800) or a partial range of years (``*``-1800).
+  Search for a firm by :ref:`start year <firm-field-start-date>`. Enter a year (eg 1795) or range of years (1790-1800) or a partial range of years (``*``-1800).
 
 .. _firm-search-end-date:
 
 End date
-  Enter a year (eg 1795) or range of years (1790-1800) or a partial range of years (``*``-1800)
+  Search for a firm by :ref:`end year <firm-field-end-date>`. Enter a year (eg 1795) or range of years (1790-1800) or a partial range of years (``*``-1800).
 
-Search results appear below the search fields. The search can be reset using the reset button. Search results return the firm ID [link], the firm name, the firm street address, city, start date, and end date.
+Search results appear below the search fields. The search can be reset using the reset button. Search results return the :ref:`firm ID <firm-field-id>`, the :ref:`firm name <firm-field-name>`, the :ref:`firm street address <firm-field-street-address>`, :ref:`city <firm-field-city>`, :ref:`start date <firm-field-start-date>`, and :ref:`end date <firm-field-end-date>`.
