@@ -49,7 +49,7 @@ End date
 .. _firm-field-titles:
 
 Titles
-  List of all titles associated with this firm, including the firm role, title, author, and date published.
+  List of all titles associated with this firm, including the :ref:`firm role <firm-field-roles>`, `title <titles.html#title-field-title>`_, `author <titles.html#title-field-author>`_, and `date published <titles.html#title-field-date-of-publication>`_.
 
 .. _firm-field-export-citation-list:
 
@@ -130,11 +130,11 @@ City
 .. _firm-search-start-date:
 
 Start Date
-  Search for a firm by :ref:`start year <firm-field-start-date>`. Enter a year (eg 1795) or range of years (1790-1800) or a partial range of years (``*``-1800).
+  Search for a firm by :ref:`start year <firm-field-start-date>`. Enter a year (e.g. 1795) or range of years (1790-1800) or a partial range of years (``*``-1800).
 
 .. _firm-search-end-date:
 
 End date
-  Search for a firm by :ref:`end year <firm-field-end-date>`. Enter a year (eg 1795) or range of years (1790-1800) or a partial range of years (``*``-1800).
+  Search for a firm by :ref:`end year <firm-field-end-date>`. Enter a year (e.g. 1795) or range of years (1790-1800) or a partial range of years (``*``-1800).
 
 Search results appear below the search fields. The search can be reset using the reset button. Search results return the :ref:`firm ID <firm-field-id>`, the :ref:`firm name <firm-field-name>`, the :ref:`firm street address <firm-field-street-address>`, :ref:`city <firm-field-city>`, :ref:`start date <firm-field-start-date>`, and :ref:`end date <firm-field-end-date>`.
