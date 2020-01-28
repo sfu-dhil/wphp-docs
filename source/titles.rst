@@ -8,7 +8,7 @@ Titles
 Explore Titles
 --------------
 
-Explore titles contains all the title entries organized by ID. For each title, the title list shows the Title ID, Title, Contributor (Roles), Firms (Firm Role), Date, and Edition.
+Explore titles contains all the title entries organized by ID. For each title, the title list shows the :ref:`Title ID <title-field-id>`, :ref:`Title <title-field-title>`, :ref:`Contributor (Roles) <title-field-contributors>`, :ref:`Firms (Firm Role) <title-field-firms>`, :ref:`Date <title-field-date-of-publication>`, and :ref:`Edition <title-field-edition>`.
 
 .. _titles-search-label:
 
@@ -21,17 +21,17 @@ The Title Search page defaults to a basic title search function with a Results S
 .. _titles-search-title:
 
 Title
-  Text search for all or part of a title.
+  Text search for all or part of a :ref:`title <title-field-title>`.
 
 .. _titles-search-results-sorted-by:
 
 Results Sorted By
-  Sort results alphabetically, by publication date, by first publication date, and by edition number.
+  Sort results alphabetically, by :ref:`publication date <title-field-date-of-publication>`, by :ref:`first publication date <title-field-date-of-first-publication>`, and by :ref:`edition number <title-field-edition>`.
 
 .. _titles-search-id:
 
 Title ID
-  Search for a title by entering the exact Title ID number.
+  Search for a title by entering the exact :ref:`Title ID number <title-field-id>`.
 
 .. _titles-search-filter-person:
 
@@ -41,109 +41,109 @@ Filter by Person
 .. _titles-search-signed-author:
 
 Signed author
-  Text search for title by Signed author field
+  Text search for title by :ref:`Signed author field <title-field-signed-author>`
 
 .. _titles-search-pseudonym:
 
 Pseudonym
-  Text search for title by Pseudonym field
+  Text search for title by :ref:`Pseudonym field <title-field-pseudonym>`
 
 .. _titles-search-filter-firm:
 
 Filter by Firm
-  Titles can be filtered by all of part of a Firm’s name, by Firm gender (female, male, unknown), by Firm role (Publisher, Printer, Bookseller, Unknown), and by Firm Address.  
+  Titles can be filtered by all of part of a `Firm’s name <firms.html#firm-field-name>`_, by `Firm gender (female, male, unknown) <firms.html#firm-field-gender>`_, by `Firm role (Publisher, Printer, Bookseller, Unknown) <firms.html#explore-firm-roles>`_, and by `Firm Address <firms.html#firm-field-street-address>`_.  
 
 .. _titles-search-self-published:
 
 Self-Published
-	Search by whether a title has been self-published or not. 
+	Search by whether a title has been :ref:`self-published <title-field-self-published>` or not. 
 
 .. _titles-search-volumes:
 
 Volumes
-	Search for a title by entering the exact number of volumes.
+	Search for a title by entering the exact :ref:`number of volumes <title-field-volumes>`.
 
 .. _titles-search-date-of-publication:
 
 Date of Publication
-  Search for the year a title was published (e.g. 1795) or a range of years (1790-1800) or partial range of years (``*``-1800).
+  Search for the year a :ref:`title was published <title-field-date-of-publication>` (e.g. 1795) or a range of years (1790-1800) or partial range of years (``*``-1800).
 
 .. _titles-search-date-of-first-publication:
 
 Date of First Publication
-  Search for the year a title was first published (e.g. 1795) or a range of years (1790-1800) or partial range of years (``*``-1800).
+  Search for the year a title was :ref:`first published <title-field-date-of-first-publication>` (e.g. 1795) or a range of years (1790-1800) or partial range of years (``*``-1800).
 
 .. _titles-search-edition-number:
 
 Edition Number
-  Search for a title by entering the edition number.
+  Search for a title by entering the :ref:`edition number <title-field-edition>`.
 
 .. _titles-search-imprint:
 
 Imprint
-  Text search for title by Imprint field.
+  Text search for title by :ref:`Imprint field <title-field-imprint>`.
 
 .. _titles-search-colophon:
 
 Colophon
-  Text search for title by Colophon field [link].
+  Text search for title by :ref:`Colophon field <title-field-colophon>`.
 
 .. _titles-search-location-of-printing:
 
 Location of Printing
-  Searches Location of Printing field
+  Searches Location of :ref:`Printing field <title-field-location-of-printing>`.
 
 .. _titles-search-format:
 
 Format
-  Titles can be filtered by the Format in which they were printed.  A description of all formats can be found in Explore Formats [link]. 
+  Titles can be filtered by the :ref:`Format in which they were printed <title-field-format>`.  A description of all formats can be found in `Explore Formats <https://dhil.lib.sfu.ca/wphp/format/>`_. 
 
 .. _titles-search-length:
 
 Length
-  Search for a title by entering the length of the page in centimetres.
+  Search for a title by entering the :ref:`length of the page <title-field-length>` in centimetres.
 
 .. _titles-search-width:
 
 Width
-  Search for a title by entering the width of the page in centimetres. 
+  Search for a title by entering the :ref:`width of the page <title-field-width>` in centimetres. 
 
 .. _titles-search-filter-by-price:
 
 Filter by Price
-  Title search can be filtered by Price (pound) field [link], Price (shilling) field [link], and/or Price (pence) field [link]. Filter search by Equal To (exact), Less Than, or Greater Than the amount entered. 
+  Title search can be filtered by :ref:`Price (pound) field <title-field-price-pound>`, :ref:`Price (shilling) field <title-field-price-shilling>`, and/or :ref:`Price (pence) field <title-field-price-pence>`. Filter search by Equal To (exact), Less Than, or Greater Than the amount entered. 
 
 .. _titles-search-genre:
 
 Genre
-  Titles can be filtered by the Genres in which they were printed.  A description of all formats can be found in Explore Genres [link]. 
+  Titles can be filtered by the Genres in which they were printed.  A description of all formats can be found in `Explore Genres <https://dhil.lib.sfu.ca/wphp/genre/>`_. 
 
 .. _titles-search-shelfmark:
 
 Shelfmark
-  Search for title by entering the Shelfmark [link].
+  Search for title by entering the :ref:`Shelfmark <title-field-shelfmarks>`.
 
 .. _titles-search-notes:
 
 Notes
-	Search by the Notes field [link]. 
+	Search by the :ref:`Notes field <title-field-notes>`. 
 
 .. _titles-search-hand-verified:
 
 Hand-Verified
-  Title search can be filtered by titles which have been Hand-Verified [link] by clicking Yes, or not Hand-Verified by clicking No. The default setting of None removes the filter. 
+  Title search can be filtered by titles which have been :ref:`Hand-Verified <title-field-hand-verified>` by clicking Yes, or not Hand-Verified by clicking No. The default setting of None removes the filter. 
 
 .. _titles-search-verified:
 
 Verified
-  Title search can be filtered by titles which have been Verified [link] by clicking Yes, or not Verified by clicking No. The default setting of None removes the filter. 
+  Title search can be filtered by titles which have been :ref:`Verified <title-field-verified>` by clicking Yes, or not Verified by clicking No. The default setting of None removes the filter. 
 
 .. _titles-search-attempted-verification:
 
 Attempted Verification
-  Title search can be filtered by texts which have had an Attempted Verification [link] by clicking Yes, or no attempted Verification by clicking No. The default setting of None removes the filter.
+  Title search can be filtered by texts which have had an :ref:`Attempted Verification <title-field-attempted-verification>` by clicking Yes, or no attempted Verification by clicking No. The default setting of None removes the filter.
 
-Search results appear below the search fields. The search can be reset using the reset button. A list of the entries generated by the search can be exported using the export button. Results can be exported with MLA, Chicago, APA formatting or as a BibTex file. Search results include the Title ID, Title, Contributors (Role), Firms (Role), Date of Publication, Edition [all linked].
+Search results appear below the search fields. The search can be reset using the reset button. A list of the entries generated by the search can be exported using the export button. Results can be exported with MLA, Chicago, APA formatting or as a BibTex file. Search results include the :ref:`Title ID <title-field-id>`, :ref:`Title <title-field-title>`, :ref:`Contributors (Role) <title-field-contributors>`, :ref:`Firms (Role) <title-field-firms>`, :ref:`Date of Publication <title-field-date-of-publication>`, :ref:`Edition <title-field-edition>`.
 
 Title fields
 ------------
@@ -161,7 +161,7 @@ Title
 .. _title-field-contributors:
 
 Contributors
-  Linked to the :ref:`Person List <person-list>`. Contribution roles include name of author(s) (if known) and, where appropriate, editors, translators, authors of introductory material, engravers, and women involved in printing, publishing, bookselling, etc. If any of the roles are attributed to a woman whose name is unknown, they will be listed as “Unknown.”
+  Linked to `Persons <persons.html#person-list>`_. `Contribution roles <https://dhil.lib.sfu.ca/wphp/role/>`_ include name of author(s) (if known) and, where appropriate, editors, translators, authors of introductory material, engravers, and women involved in printing, publishing, bookselling, etc. If any of the roles are attributed to a woman whose name is unknown, they will be listed as “Unknown.”
 
 .. _title-field-signed-author:
 
@@ -178,7 +178,7 @@ Pseudonym
 .. _title-field-firms:
 
 Firms
-  Linked to the :ref:`Firms <firm-list>`. Includes all printers, publishers, and booksellers listed in the imprint and colophon.
+  Linked to the :doc:`Firms <firms>`. Includes all printers, publishers, and booksellers listed in the imprint and colophon.
 
   
 .. _title-field-self-published:
@@ -236,7 +236,7 @@ Location of printing
 .. _title-field-format:
 
 Format
-  The way that sheets have been folded and gathered into pages. Formats might include folio, quarto, octavo, duodecimo, sextodecimo, octodecimo, vicesimo-quarto. Selecting the format will open a page with description of format and list of titles published in that format.
+  The way that sheets have been folded and gathered into pages. `Formats <https://dhil.lib.sfu.ca/wphp/format/>`_ might include folio, quarto, octavo, duodecimo, sextodecimo, octodecimo, vicesimo-quarto. Selecting the format will open a page with description of format and list of titles published in that format.
 
 
 .. _title-field-length:
@@ -244,7 +244,7 @@ Format
 Length
   Length of page measured in cm.
 
-.. _title-field-size-width:
+.. _title-field-width:
 
 Width
   Width of page measured in cm.
@@ -272,12 +272,12 @@ Total price (in pence)
 .. _title-field-genre:
 
 Genre
-  Category into which the work falls. Descriptions of each genre in Explore Genres. Selecting the genre will open produce a list of all titles in that genre.
+  Category into which the work falls. Descriptions of each genre in `Explore Genres <https://dhil.lib.sfu.ca/wphp/genre/>`_. Selecting the genre will open produce a list of all titles in that genre.
 
 .. _title-field-sources:
 
 Sources
-  List of sources consulted to populate the entry fields. Sources include the source name and ID. The source ID will vary according to the source, but will correspond to a unique identifier for the source consulted. For descriptions of sources, see Explore Sources. Selecting the source name will open a page with information about that source and a list of titles that use that source. If the source ID is hyperlinked, selecting it will take you to the original source record.
+  List of sources consulted to populate the entry fields. Sources include the source name and ID. The source ID will vary according to the source, but will correspond to a unique identifier for the source consulted. For descriptions of sources, see `Explore Sources <https://dhil.lib.sfu.ca/wphp/sources/>`_. Selecting the source name will open a page with information about that source and a list of titles that use that source. If the source ID is hyperlinked, selecting it will take you to the original source record.
 
 
 .. _title-field-shelfmarks:
@@ -303,7 +303,7 @@ Attempted Verification
 .. _title-field-verified:
 
 Verified
-  Indicates that two or more sources have been found or that the work has been hand-verified. For a detailed description of the verification process, see Project Methodology - Titles.
+  Indicates that two or more sources have been found or that the work has been hand-verified. For a detailed description of the verification process, see `Project Methodology - Titles <https://dhil.lib.sfu.ca/wphp/page/11>`_.
 
 .. _title-field-bibliographic-entry:
 
