@@ -8,7 +8,7 @@ Persons
 Explore Persons
 ---------------
 
-The person list contains all the person entries organized alphabetically by last name. Select ID to sort by ID number. For each entry, the person list shows the ID, Last name, First name, Gender, Date of birth, and Date of death.
+The person list contains all the person entries organized alphabetically by last name. Select ID to sort by ID number. For each entry, the person list shows the :ref:`ID <person-field-id>`, :ref:`Last name <person-field-last-name>`, :ref:`First name <person-field-first-name>`, :ref:`Gender <person-field-gender>`, :ref:`Date of birth <person-field-date-of-birth>`, and :ref:`Date of death <person-field-date-of-death>`.
 
 Person fields
 ^^^^^^^^^^^^^
@@ -53,7 +53,7 @@ Place of birth
 Date of death
   If known, YYYY-MM-DD.
 
-.. _person-field-place-of-date:
+.. _person-field-place-of-death:
 
 Place of death
   If known; city or town is geotagged.
@@ -163,8 +163,6 @@ Person Search
 
 The Search Persons page defaults to a basic person search by name with a custom search page available via the Advanced Search button. Select a method to sort results with the Results Sorted By dropdown menu. The Advanced Search allows users to search for specific persons by fields associated with a person. Search results return all person entries that include the search term. Selecting a person will return all titles associated with that person. 
 
-Person Search has a Firm ID field that looks to be a Person ID instead.
-
 Person Search parameters
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -181,56 +179,56 @@ Results Sorted By
 .. _person-search-person-id:
 
 Person ID
-	Search for a person by entering the exact Person ID number.
+	Search for a person by entering the exact :ref:`Person ID number <person-field-id>`.
 
 .. _person-search-gender:
 
 Gender
-  Search for persons by gender. Leave Gender field blank to include all genders.
+  Search for persons by :ref:`gender <person-field-gender>`. Leave Gender field blank to include all genders.
 
 .. _person-search-date-of-birth:
 
 Date of Birth
-  Search for person by birth year using a single year (e.g. 1795) or a range of years (1790-1800) or partial range of years (``*``-1800).
+  Search for person by :ref:`birth year <person-field-date-of-birth>` using a single year (e.g. 1795) or a range of years (1790-1800) or partial range of years (``*``-1800).
 
 .. _person-search-date-of-death:
 
 Date of Death
-  Search for person by death year using a single year (e.g. 1795) or a range of years (1790-1800) or partial range of years (``*``-1800).
+  Search for person by :ref:`death year <person-field-date-of-death>` using a single year (e.g. 1795) or a range of years (1790-1800) or partial range of years (``*``-1800).
 
 .. _person-search-place-of-birth:
 
 Place of Birth
-  Text search for person by place of birth
+  Text search for person by :ref:`place of birth <person-field-place-of-birth>`.
 
 .. _person-search-place-of-date:
 
 Place of Death
-  Text search for person by place of death
+  Text search for person by :ref:`place of death <person-field-place-of-death>`.
 
 .. _person-search-viaf-uri:
 
 VIAF URI
-  Enter a VIAF URI to check if we have a corresponding record. Enter “blank” to find records which do not have VIAF URIs.
+  Enter a :ref:`VIAF URI <person-field-viaf-entry>` to check if we have a corresponding record. Enter “blank” to find records which do not have VIAF URIs.
 
 .. _person-search-wikipedia-url:
 
 Wikipedia URL
-  Enter a Wikipedia URL to check if we have a corresponding record. Enter “blank” to find records which do not have Wikipedia URLs.
+  Enter a :ref:`Wikipedia URL <person-field-wikipedia-entry>` to check if we have a corresponding record. Enter “blank” to find records which do not have Wikipedia URLs.
 
 .. _person-search-image-url:
 
 Image URL
-  Enter an image URL to check if we have a corresponding record. Enter “blank” to find records which do not have image URLs.
+  Enter an :ref:`image URL <person-field-image-url>` to check if we have a corresponding record. Enter “blank” to find records which do not have image URLs.
 
 .. _person-search-filter-by-title:
 
 Filter by Title
-  Person search can be filtered by all or part of a title, by contributor role, by date of publication, by genre, or by location of printing.  
+  Person search can be filtered by all or part of a `title <titles.html#title-field-title>`_, by `contributor role <titles.html#title-field-contributors>`_, by `date of publication <titles.html#title-field-date-of-publication>`_, by `genre <titles.html#title-field-genre>`_, or by `location of printing <titles.html#title-field-location-of-printing>`_.  
 
 .. _person-search-filter-by-firm:
 
 Filter by Firm
-  Person search can be filtered by all or part of a firm name, by firm gender, by firm role, or by firm address. 
+  Person search can be filtered by all or part of a `firm name <firms.html#firm-field-title>`_, by `firm gender <firms.html#firm-field-gender>`_, by `firm role <firms.html#firm-field-roles>`_, or by `firm address <firms.html#firm-field-street-address>`_. 
 
 Search results appear below the search fields. The search can be reset using the reset button. Search results include the person’s ID [link], last name, first name, gender, date of birth, and date of death.
