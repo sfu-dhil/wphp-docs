@@ -8,13 +8,13 @@ Explore Firms
 
 Explore Firms contains all the firm entries organized by ID. For each entry, the firm list shows the :ref:`ID <firm-field-id>`, :ref:`Name <firm-field-name>`, :ref:`Street address <firm-field-street-address>`, :ref:`City (Country) <firm-field-city>`, :ref:`Start date <firm-field-start-date>`, :ref:`End date <firm-field-end-date>`.
 
-Firm entry fields
-^^^^^^^^^^^^^^^^^
+Firm Fields
+-------------
 
 .. _firm-field-id:
 
 ID
-  Unique ID number for this entry
+  Unique ID number for this entry.
 
 .. _firm-field-name:
 
@@ -49,11 +49,11 @@ End date
 .. _firm-field-titles:
 
 Titles
-  List of all titles associated with this firm, including the :ref:`firm role <firm-field-roles>`, `title <titles.html#title-field-title>`_, `author <titles.html#title-field-author>`_, and `date published <titles.html#title-field-date-of-publication>`_.
+  List of all titles associated with this firm, including the :ref:`firm role <firm-field-roles>`, `title <titles.html#title-field-title>`_, `author <persons.html#person-contributor-author>`_, and `date published <titles.html#title-field-date-of-publication>`_.
 
 .. _firm-field-export-citation-list:
 
-Export citation list
+Export Citation List
 	Export a list of all titles associated with the firm in MLA, APA, Chicago, and BibTex. Select tabs to change format. 
 
 .. _firm-field-suggestions-and-comments:
@@ -93,9 +93,6 @@ Search Firms
 -------------
 
 Search Firms page defaults to a basic firm search by name with a custom search page available via the Advanced Search button. Select a method to sort results with the Results Sorted By dropdown menu. Advanced Search allows users to search for a specific firm by fields associated with a firm.
-
-Firm Search parameters
-^^^^^^^^^^^^^^^^^^^^^^
 
 .. _firm-search-name:
 

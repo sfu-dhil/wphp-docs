@@ -6,14 +6,13 @@
 Welcome to Women's Print History Project's documentation!
 =========================================================
 
-User Manual
+User Guide
 -----------
 
 .. toctree::
    :maxdepth: 2
    
    intro
-   getting_started
    titles
    persons
    firms
