@@ -10,8 +10,10 @@ Explore Persons
 
 The person list contains all the person entries organized alphabetically by last name. Select ID to sort by ID number. For each entry, the person list shows the :ref:`ID <person-field-id>`, :ref:`Last name <person-field-last-name>`, :ref:`First name <person-field-first-name>`, :ref:`Gender <person-field-gender>`, :ref:`Date of birth <person-field-date-of-birth>`, and :ref:`Date of death <person-field-date-of-death>`.
 
-Person fields
-^^^^^^^^^^^^^
+.. _persons-field-label:
+
+Person Fields
+--------------
 
 .. _person-field-id:
 
@@ -60,12 +62,12 @@ Place of death
 
 .. _person-field-viaf-entry:
 
-VIAF Entry
+VIAF URI
   Link to the person’s Virtual International Authority File if available.
 
 .. _person-field-wikipedia-entry:
 
-Wikipedia Entry
+Wikipedia URL
   Link to the person’s entry in Wikipedia if available.
 
 .. _person-field-image-url:
@@ -157,14 +159,13 @@ Translator
   The person who is responsible for translating the text from one language to another.
 
 
-Person Search
+.. _persons-search-label:
+
+Search Persons
 --------------
 
 
 The Search Persons page defaults to a basic person search by name with a custom search page available via the Advanced Search button. Select a method to sort results with the Results Sorted By dropdown menu. The Advanced Search allows users to search for specific persons by fields associated with a person. Search results return all person entries that include the search term. Selecting a person will return all titles associated with that person. 
-
-Person Search parameters
-~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. _person-search-name:
 

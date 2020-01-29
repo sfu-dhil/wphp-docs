@@ -1,7 +1,7 @@
 Introduction
 ============
 
-The Women’s Print History Project 1750-1836 (WPHP) is the first comprehensive bibliographical database of women's contributions to print for one of the most convulsive periods in the history of both women’s writing and print. The database, with nearly 2,000 person entries and over 8,000 title entries, will enable rigorous quantitative analysis of patterns in women's print history.
+The Women’s Print History Project, 1750-1830 is a comprehensive bibliographical database of women’s contributions to print for one of the most convulsive periods in both women’s and print history. We collect detailed information about books that women were involved in producing, not just as authors, but also as printers, publishers, booksellers, editors, compilers, translators, engravers, illustrators, and composers. In addition to detailed bibliographical information about the material components of the book, we record basic data about the people and firms that produced them, allowing us to trace the networks and relationships that structured the book trades.
 
 This application was developed by the `Digital Humanities Innovation Lab`_ at `Simon Fraser University`_ with considerable assistance and support from the `SFU Library`_.
 
