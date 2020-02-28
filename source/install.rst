@@ -32,6 +32,7 @@ process for installing a Symfony application.
 .. code-block:: sql
 
   create database wphp;
+  create user if not exists wphp@localhost;
   grant all on wphp.* to wphp@localhost;
   set password for wphp@localhost = password('hotpockets');
 
@@ -69,15 +70,21 @@ Sometimes composer runs out of memory. If that happens, try this alternate.
 
   ./bin/console fos:user:create admin@example.com
   ./bin/console fos:user:promote admin@example.com ROLE_ADMIN
+
+9. Install the required assets using the below command.
   
-9. Install bower, npm, and nodejs if you haven't already. Then use bower to 
+.. code-block:: bash
+
+  ./bin/console assets:install --symlink
+  
+10. Install bower, npm, and nodejs if you haven't already. Then use bower to 
    download and install the javascript and css dependencies.
   
 .. code-block:: bash
 
   bower install
 
-10. Configure the web server. The application's `web/` directory must
+11. Configure the web server. The application's `web/` directory must
     be accessible to the world. Symfony provides `example
     configurations`_ for most server setups.
 
