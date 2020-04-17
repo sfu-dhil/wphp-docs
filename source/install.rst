@@ -10,7 +10,7 @@ Installation
 
 Make sure the requirements are satisfied.
 
-The WPHP application is based on Symfony 3.2. Installation follows the normal
+The WPHP application is based on Symfony 4.4. Installation follows the normal
 process for installing a Symfony application.
 
 1. Get the code from GitHub. 
@@ -34,7 +34,7 @@ process for installing a Symfony application.
   create database wphp;
   create user if not exists wphp@localhost;
   grant all on wphp.* to wphp@localhost;
-  set password for wphp@localhost = password('hotpockets');
+  set password for wphp@localhost = password('abc123');
 
 4. `Install composer`_ if it isn't already installed somewhere.
   
@@ -55,8 +55,10 @@ Sometimes composer runs out of memory. If that happens, try this alternate.
    able to write to `var/cache/*` and `var/logs/*` and
    `var/sessions/*`. The symfony docs provide `recommended commands`_
    depending on your OS.
+
+7. Please follow the instructions in the config.rst file to set up the configuration settings for this project.
   
-7. Load the schema into the database. This is done with the 
+8. Load the schema into the database. This is done with the 
    symfony console.
   
 .. code-block:: bash
@@ -68,31 +70,39 @@ Sometimes composer runs out of memory. If that happens, try this alternate.
   
 .. code-block:: bash
 
-  ./bin/console fos:user:create admin@example.com
-  ./bin/console fos:user:promote admin@example.com ROLE_ADMIN
+  ./bin/console nines:create:user
 
-9. Install the required assets using the below command.
+9. If you haven't installed npm and yarn globally, you will have to install them. You could do this by running the below commands in the terminal.
   
 .. code-block:: bash
 
-  ./bin/console assets:install --symlink
-  
-10. Install bower, npm, and nodejs if you haven't already. Then use bower to 
-   download and install the javascript and css dependencies.
+  sudo apt install npm
+  sudo npm install --global yarn
+
+10. If you have installed npm and yarn globally, then set up yarn for this project by running the below command inside project directory.
   
 .. code-block:: bash
 
-  bower install
+  yarn install
 
-11. Configure the web server. The application's `web/` directory must
+11. Configure the web server. The application's `public/` directory must
     be accessible to the world. Symfony provides `example
     configurations`_ for most server setups.
 
+12. Start the Symfony server by using the below command and navigate to the link displayed.
   
+.. code-block:: bash
+
+  symfony server:start
+
 At this point, the web interface should be up and running, and you should
 be able to login by following the Login link in the top right menu bar.
 
-That should be it.
+13. Once everything is done, you should stop the Symfomny server. Before you close the terminal, make sure to stop the server using this command.
+  
+.. code-block:: bash
+
+  symfony server:stop
 
 .. _`Install composer`: https://getcomposer.org/download/
 
